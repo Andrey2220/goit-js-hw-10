@@ -28,5 +28,4 @@ function fetchCatByBreed(breedId) {
       Notiflix.Notify.failure(error.textContent);
     });
 }
-
 export { fetchBreeds, fetchCatByBreed };
